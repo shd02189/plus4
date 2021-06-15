@@ -1,0 +1,47 @@
+body {
+    background-color: RGBA(150, 120, 20, 0.2);
+    min-height: 100vh;
+    padding-top: 3.25rem;
+    font-family: 'Noto Serif', serif;
+}
+
+.section {
+    padding: 1rem 1.5rem;
+    max-width: 750px;
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+}
+
+.is-sparta {
+    color: darkolivegreen !important;
+    font-family: 'Noto Serif', serif;
+}
+
+.button.is-sparta {
+    background-color: darkkhaki;
+    border-color: transparent;
+    color: #fff !important;
+    font-family: 'Noto Serif', serif;
+}
+
+.button.is-sparta.is-outlined {
+    background-color: transparent;
+    border-color: darkgreen;
+    color: darkkhaki !important;
+    font-family: 'Noto Serif', serif;
+}
+
+.modal-content {
+    width: 600px;
+    max-width: 80%;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
